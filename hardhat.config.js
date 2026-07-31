@@ -11,4 +11,10 @@ module.exports = {
   networks: {
     hardhat: {},
   },
+  gasReporter: {
+    enabled: true,
+    currency: "USD",
+    coinmarketcap: "YOUR_API_KEY", // Optional, remove if you don't have one
+    token: "ETH",
+  },
 };
